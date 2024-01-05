@@ -1,0 +1,219 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00    22681     0.00     0.00  std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&, char*)
+  0.00      0.00     0.00    13608     0.00     0.00  ToLower(char*)
+  0.00      0.00     0.00    13608     0.00     0.00  TRBtree::TNode::TNode()
+  0.00      0.00     0.00    13608     0.00     0.00  TRBtree::Search(char const*)
+  0.00      0.00     0.00     4914     0.00     0.00  TRBtree::LeftRotate(TRBtree::TNode&)
+  0.00      0.00     0.00     4537     0.00     0.00  TRBtree::TNode::~TNode()
+  0.00      0.00     0.00     4536     0.00     0.00  TRBtree::RBTransPlant(TRBtree::TNode*, TRBtree::TNode*)
+  0.00      0.00     0.00     4536     0.00     0.00  TRBtree::RBDeleteFixup(TRBtree::TNode*)
+  0.00      0.00     0.00     4536     0.00     0.00  TRBtree::RBInsertFixup(TRBtree::TNode*)
+  0.00      0.00     0.00     4536     0.00     0.00  TRBtree::Insert(TRBtree::TNode&)
+  0.00      0.00     0.00     4536     0.00     0.00  TRBtree::RBDelete(TRBtree::TNode*)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  TRBtree::DeleteTree(TRBtree::TNode*)
+  0.00      0.00     0.00        1     0.00     0.00  TRBtree::TNode::TNode(bool, unsigned long long, char*)
+  0.00      0.00     0.00        1     0.00     0.00  TRBtree::TRBtree()
+  0.00      0.00     0.00        1     0.00     0.00  TRBtree::~TRBtree()
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00   22681/22681       main [6]
+[8]      0.0    0.00    0.00   22681         std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&, char*) [8]
+-----------------------------------------------
+                0.00    0.00   13608/13608       main [6]
+[9]      0.0    0.00    0.00   13608         ToLower(char*) [9]
+-----------------------------------------------
+                0.00    0.00   13608/13608       main [6]
+[10]     0.0    0.00    0.00   13608         TRBtree::TNode::TNode() [10]
+-----------------------------------------------
+                0.00    0.00   13608/13608       main [6]
+[11]     0.0    0.00    0.00   13608         TRBtree::Search(char const*) [11]
+-----------------------------------------------
+                0.00    0.00    1701/4914        TRBtree::RBDeleteFixup(TRBtree::TNode*) [15]
+                0.00    0.00    3213/4914        TRBtree::RBInsertFixup(TRBtree::TNode*) [16]
+[12]     0.0    0.00    0.00    4914         TRBtree::LeftRotate(TRBtree::TNode&) [12]
+-----------------------------------------------
+                0.00    0.00       1/4537        TRBtree::~TRBtree() [23]
+                0.00    0.00    4536/4537        TRBtree::RBDelete(TRBtree::TNode*) [18]
+[13]     0.0    0.00    0.00    4537         TRBtree::TNode::~TNode() [13]
+-----------------------------------------------
+                0.00    0.00    4536/4536        TRBtree::RBDelete(TRBtree::TNode*) [18]
+[14]     0.0    0.00    0.00    4536         TRBtree::RBTransPlant(TRBtree::TNode*, TRBtree::TNode*) [14]
+-----------------------------------------------
+                0.00    0.00    4536/4536        TRBtree::RBDelete(TRBtree::TNode*) [18]
+[15]     0.0    0.00    0.00    4536         TRBtree::RBDeleteFixup(TRBtree::TNode*) [15]
+                0.00    0.00    1701/4914        TRBtree::LeftRotate(TRBtree::TNode&) [12]
+-----------------------------------------------
+                0.00    0.00    4536/4536        TRBtree::Insert(TRBtree::TNode&) [17]
+[16]     0.0    0.00    0.00    4536         TRBtree::RBInsertFixup(TRBtree::TNode*) [16]
+                0.00    0.00    3213/4914        TRBtree::LeftRotate(TRBtree::TNode&) [12]
+-----------------------------------------------
+                0.00    0.00    4536/4536        main [6]
+[17]     0.0    0.00    0.00    4536         TRBtree::Insert(TRBtree::TNode&) [17]
+                0.00    0.00    4536/4536        TRBtree::RBInsertFixup(TRBtree::TNode*) [16]
+-----------------------------------------------
+                0.00    0.00    4536/4536        main [6]
+[18]     0.0    0.00    0.00    4536         TRBtree::RBDelete(TRBtree::TNode*) [18]
+                0.00    0.00    4536/4536        TRBtree::RBTransPlant(TRBtree::TNode*, TRBtree::TNode*) [14]
+                0.00    0.00    4536/4536        TRBtree::RBDeleteFixup(TRBtree::TNode*) [15]
+                0.00    0.00    4536/4537        TRBtree::TNode::~TNode() [13]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN7TRBtreeC2Ev [24]
+[19]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [19]
+-----------------------------------------------
+                0.00    0.00       1/1           TRBtree::~TRBtree() [23]
+[20]     0.0    0.00    0.00       1         TRBtree::DeleteTree(TRBtree::TNode*) [20]
+-----------------------------------------------
+                0.00    0.00       1/1           TRBtree::TRBtree() [22]
+[21]     0.0    0.00    0.00       1         TRBtree::TNode::TNode(bool, unsigned long long, char*) [21]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[22]     0.0    0.00    0.00       1         TRBtree::TRBtree() [22]
+                0.00    0.00       1/1           TRBtree::TNode::TNode(bool, unsigned long long, char*) [21]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[23]     0.0    0.00    0.00       1         TRBtree::~TRBtree() [23]
+                0.00    0.00       1/1           TRBtree::DeleteTree(TRBtree::TNode*) [20]
+                0.00    0.00       1/4537        TRBtree::TNode::~TNode() [13]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [19] __static_initialization_and_destruction_0(int, int) [16] TRBtree::RBInsertFixup(TRBtree::TNode*) [18] TRBtree::RBDelete(TRBtree::TNode*)
+   [9] ToLower(char*)         [21] TRBtree::TNode::TNode(bool, unsigned long long, char*) [22] TRBtree::TRBtree()
+  [20] TRBtree::DeleteTree(TRBtree::TNode*) [10] TRBtree::TNode::TNode() [23] TRBtree::~TRBtree()
+  [12] TRBtree::LeftRotate(TRBtree::TNode&) [13] TRBtree::TNode::~TNode() [8] std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&, char*)
+  [14] TRBtree::RBTransPlant(TRBtree::TNode*, TRBtree::TNode*) [17] TRBtree::Insert(TRBtree::TNode&)
+  [15] TRBtree::RBDeleteFixup(TRBtree::TNode*) [11] TRBtree::Search(char const*)

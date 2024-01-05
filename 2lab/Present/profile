@@ -1,0 +1,757 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00      340     0.00     0.00  std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_iterator(std::_Rb_tree_node_base*)
+  0.00      0.00     0.00      171     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_end()
+  0.00      0.00     0.00      169     0.00     0.00  __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_ptr()
+  0.00      0.00     0.00      169     0.00     0.00  __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_addr()
+  0.00      0.00     0.00      169     0.00     0.00  std::_Rb_tree_node<std::pair<char* const, unsigned long long> >::_M_valptr()
+  0.00      0.00     0.00      146     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_mbegin() const
+  0.00      0.00     0.00      146     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_begin()
+  0.00      0.00     0.00      145     0.00     0.00  std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&, char*)
+  0.00      0.00     0.00      142     0.00     0.00  std::less<char*>::operator()(char*, char*) const
+  0.00      0.00     0.00      125     0.00     0.00  std::piecewise_construct_t const& std::forward<std::piecewise_construct_t const&>(std::remove_reference<std::piecewise_construct_t const&>::type&)
+  0.00      0.00     0.00      125     0.00     0.00  std::tuple<>&& std::forward<std::tuple<> >(std::remove_reference<std::tuple<> >::type&)
+  0.00      0.00     0.00      125     0.00     0.00  std::tuple<char*&&>&& std::forward<std::tuple<char*&&> >(std::remove_reference<std::tuple<char*&&> >::type&)
+  0.00      0.00     0.00      121     0.00     0.00  std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_const_iterator(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&)
+  0.00      0.00     0.00      120     0.00     0.00  __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_ptr() const
+  0.00      0.00     0.00      120     0.00     0.00  __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_addr() const
+  0.00      0.00     0.00      120     0.00     0.00  std::_Select1st<std::pair<char* const, unsigned long long> >::operator()(std::pair<char* const, unsigned long long> const&) const
+  0.00      0.00     0.00      120     0.00     0.00  std::_Rb_tree_node<std::pair<char* const, unsigned long long> >::_M_valptr() const
+  0.00      0.00     0.00      120     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_key(std::_Rb_tree_node<std::pair<char* const, unsigned long long> > const*)
+  0.00      0.00     0.00      119     0.00     0.00  std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::operator*() const
+  0.00      0.00     0.00      100     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_Node_allocator()
+  0.00      0.00     0.00      100     0.00     0.00  char*&& std::forward<char*>(std::remove_reference<char*>::type&)
+  0.00      0.00     0.00       97     0.00     0.00  std::operator==(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&)
+  0.00      0.00     0.00       96     0.00     0.00  ToLower(char*)
+  0.00      0.00     0.00       96     0.00     0.00  TRBtree::TNode::TNode()
+  0.00      0.00     0.00       96     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_lower_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&)
+  0.00      0.00     0.00       96     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::end()
+  0.00      0.00     0.00       96     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_left(std::_Rb_tree_node_base*)
+  0.00      0.00     0.00       73     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::size() const
+  0.00      0.00     0.00       72     0.00     0.00  std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::lower_bound(char* const&)
+  0.00      0.00     0.00       72     0.00     0.00  std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::end()
+  0.00      0.00     0.00       72     0.00     0.00  std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&)
+  0.00      0.00     0.00       72     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::lower_bound(char* const&)
+  0.00      0.00     0.00       50     0.00     0.00  operator new(unsigned long, void*)
+  0.00      0.00     0.00       49     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::begin()
+  0.00      0.00     0.00       49     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_right(std::_Rb_tree_node_base*)
+  0.00      0.00     0.00       48     0.00     0.00  std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&& std::forward<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >(std::remove_reference<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >::type&)
+  0.00      0.00     0.00       48     0.00     0.00  std::operator==(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> > const&, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> > const&)
+  0.00      0.00     0.00       47     0.00     0.00  std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::key_comp() const
+  0.00      0.00     0.00       47     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::key_comp() const
+  0.00      0.00     0.00       25     0.00     0.00  __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::deallocate(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, unsigned long)
+  0.00      0.00     0.00       25     0.00     0.00  void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::destroy<std::pair<char* const, unsigned long long> >(std::pair<char* const, unsigned long long>*)
+  0.00      0.00     0.00       25     0.00     0.00  __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::allocate(unsigned long, void const*)
+  0.00      0.00     0.00       25     0.00     0.00  void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&)
+  0.00      0.00     0.00       25     0.00     0.00  __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::_M_max_size() const
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >::_M_const_cast() const
+  0.00      0.00     0.00       25     0.00     0.00  std::_Head_base<0ul, char*&&, false>::_M_head(std::_Head_base<0ul, char*&&, false>&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Head_base<0ul, char*&&, false>::_Head_base<char*>(char*&&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Tuple_impl<0ul, char*&&>::_M_head(std::_Tuple_impl<0ul, char*&&>&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Tuple_impl<0ul, char*&&>::_Tuple_impl(std::_Tuple_impl<0ul, char*&&>&&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Tuple_impl<0ul, char*&&>::_Tuple_impl<char*>(char*&&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree_header::_M_reset()
+  0.00      0.00     0.00       25     0.00     0.00  std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::deallocate(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, unsigned long)
+  0.00      0.00     0.00       25     0.00     0.00  void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::destroy<std::pair<char* const, unsigned long long> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*)
+  0.00      0.00     0.00       25     0.00     0.00  std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, unsigned long)
+  0.00      0.00     0.00       25     0.00     0.00  void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&)
+  0.00      0.00     0.00       25     0.00     0.00  std::pair<char* const, unsigned long long>::pair<char*&&>(std::piecewise_construct_t, std::tuple<char*&&>, std::tuple<>)
+  0.00      0.00     0.00       25     0.00     0.00  std::pair<char* const, unsigned long long>::pair<char*&&, 0ul>(std::tuple<char*&&>&, std::tuple<>&, std::_Index_tuple<0ul>, std::_Index_tuple<>)
+  0.00      0.00     0.00       25     0.00     0.00  std::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*>::pair<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&, std::_Rb_tree_node_base*&, true>(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&, std::_Rb_tree_node_base*&)
+  0.00      0.00     0.00       25     0.00     0.00  std::tuple<char*&&>::tuple(std::tuple<char*&&>&&)
+  0.00      0.00     0.00       25     0.00     0.00  std::tuple<char*&&>::tuple<char*, true, true>(char*&&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_node()
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_put_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_drop_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree_node<std::pair<char* const, unsigned long long> >* std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_destroy_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*)
+  0.00      0.00     0.00       25     0.00     0.00  void std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_construct_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_unique_pos(char* const&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, char* const&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*)
+  0.00      0.00     0.00       25     0.00     0.00  char*& std::__get_helper<0ul, char*&&>(std::_Tuple_impl<0ul, char*&&>&)
+  0.00      0.00     0.00       25     0.00     0.00  std::tuple<char*&&> std::forward_as_tuple<char*>(char*&&)
+  0.00      0.00     0.00       25     0.00     0.00  std::tuple_element<0ul, std::tuple<char*&&> >::type& std::get<0ul, char*&&>(std::tuple<char*&&>&)
+  0.00      0.00     0.00       25     0.00     0.00  std::remove_reference<char*&>::type&& std::move<char*&>(char*&)
+  0.00      0.00     0.00       25     0.00     0.00  char*&& std::forward<char*&&>(std::remove_reference<char*&&>::type&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*& std::forward<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&>(std::remove_reference<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&>::type&)
+  0.00      0.00     0.00       25     0.00     0.00  std::_Rb_tree_node_base*& std::forward<std::_Rb_tree_node_base*&>(std::remove_reference<std::_Rb_tree_node_base*&>::type&)
+  0.00      0.00     0.00       24     0.00     0.00  std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::erase(char* const&)
+  0.00      0.00     0.00       24     0.00     0.00  std::pair<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >::pair<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, true>(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&&, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&&)
+  0.00      0.00     0.00       24     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&)
+  0.00      0.00     0.00       24     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >)
+  0.00      0.00     0.00       24     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_upper_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&)
+  0.00      0.00     0.00       24     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::clear()
+  0.00      0.00     0.00       24     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::erase(char* const&)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::~new_allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::~allocator()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree_header::_Rb_tree_header()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree_key_compare<std::less<char*> >::_Rb_tree_key_compare()
+  0.00      0.00     0.00        1     0.00     0.00  std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::map()
+  0.00      0.00     0.00        1     0.00     0.00  std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::~map()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree_impl<std::less<char*>, true>::_Rb_tree_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree_impl<std::less<char*>, true>::~_Rb_tree_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::~_Rb_tree()
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00      24/340         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_upper_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&) [90]
+                0.00    0.00      25/340         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [72]
+                0.00    0.00      25/340         std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >::_M_const_cast() const [52]
+                0.00    0.00      25/340         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_unique_pos(char* const&) [76]
+                0.00    0.00      49/340         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::begin() [41]
+                0.00    0.00      96/340         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::end() [33]
+                0.00    0.00      96/340         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_lower_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&) [32]
+[8]      0.0    0.00    0.00     340         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_iterator(std::_Rb_tree_node_base*) [8]
+-----------------------------------------------
+                0.00    0.00      24/171         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&) [88]
+                0.00    0.00      25/171         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, char* const&) [77]
+                0.00    0.00      25/171         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [72]
+                0.00    0.00      25/171         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_unique_pos(char* const&) [76]
+                0.00    0.00      72/171         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::lower_bound(char* const&) [39]
+[9]      0.0    0.00    0.00     171         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_end() [9]
+-----------------------------------------------
+                0.00    0.00     169/169         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >::_M_valptr() [12]
+[10]     0.0    0.00    0.00     169         __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_ptr() [10]
+                0.00    0.00     169/169         __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_addr() [11]
+-----------------------------------------------
+                0.00    0.00     169/169         __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_ptr() [10]
+[11]     0.0    0.00    0.00     169         __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_addr() [11]
+-----------------------------------------------
+                0.00    0.00      25/169         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_destroy_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [73]
+                0.00    0.00      25/169         void std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_construct_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [74]
+                0.00    0.00     119/169         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::operator*() const [26]
+[12]     0.0    0.00    0.00     169         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >::_M_valptr() [12]
+                0.00    0.00     169/169         __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_ptr() [10]
+-----------------------------------------------
+                0.00    0.00     146/146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_begin() [14]
+[13]     0.0    0.00    0.00     146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_mbegin() const [13]
+-----------------------------------------------
+                0.00    0.00       1/146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::~_Rb_tree() [105]
+                0.00    0.00      24/146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&) [88]
+                0.00    0.00      24/146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::clear() [91]
+                0.00    0.00      25/146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_unique_pos(char* const&) [76]
+                0.00    0.00      72/146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::lower_bound(char* const&) [39]
+[14]     0.0    0.00    0.00     146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_begin() [14]
+                0.00    0.00     146/146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_mbegin() const [13]
+-----------------------------------------------
+                0.00    0.00     145/145         main [6]
+[15]     0.0    0.00    0.00     145         std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&, char*) [15]
+-----------------------------------------------
+                0.00    0.00      47/142         std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&) [38]
+                0.00    0.00      47/142         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_lower_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&) [32]
+                0.00    0.00      48/142         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&) [88]
+[16]     0.0    0.00    0.00     142         std::less<char*>::operator()(char*, char*) const [16]
+-----------------------------------------------
+                0.00    0.00      25/125         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [75]
+                0.00    0.00      25/125         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >* std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [71]
+                0.00    0.00      25/125         void std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_construct_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [74]
+                0.00    0.00      25/125         void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [62]
+                0.00    0.00      25/125         void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [50]
+[17]     0.0    0.00    0.00     125         std::piecewise_construct_t const& std::forward<std::piecewise_construct_t const&>(std::remove_reference<std::piecewise_construct_t const&>::type&) [17]
+-----------------------------------------------
+                0.00    0.00      25/125         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [75]
+                0.00    0.00      25/125         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >* std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [71]
+                0.00    0.00      25/125         void std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_construct_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [74]
+                0.00    0.00      25/125         void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [62]
+                0.00    0.00      25/125         void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [50]
+[18]     0.0    0.00    0.00     125         std::tuple<>&& std::forward<std::tuple<> >(std::remove_reference<std::tuple<> >::type&) [18]
+-----------------------------------------------
+                0.00    0.00      25/125         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [75]
+                0.00    0.00      25/125         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >* std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [71]
+                0.00    0.00      25/125         void std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_construct_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [74]
+                0.00    0.00      25/125         void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [62]
+                0.00    0.00      25/125         void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [50]
+[19]     0.0    0.00    0.00     125         std::tuple<char*&&>&& std::forward<std::tuple<char*&&> >(std::remove_reference<std::tuple<char*&&> >::type&) [19]
+-----------------------------------------------
+                0.00    0.00      25/121         std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&) [38]
+                0.00    0.00      48/121         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::erase(char* const&) [92]
+                0.00    0.00      48/121         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >) [89]
+[20]     0.0    0.00    0.00     121         std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_const_iterator(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&) [20]
+-----------------------------------------------
+                0.00    0.00     120/120         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >::_M_valptr() const [24]
+[21]     0.0    0.00    0.00     120         __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_ptr() const [21]
+                0.00    0.00     120/120         __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_addr() const [22]
+-----------------------------------------------
+                0.00    0.00     120/120         __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_ptr() const [21]
+[22]     0.0    0.00    0.00     120         __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_addr() const [22]
+-----------------------------------------------
+                0.00    0.00     120/120         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_key(std::_Rb_tree_node<std::pair<char* const, unsigned long long> > const*) [25]
+[23]     0.0    0.00    0.00     120         std::_Select1st<std::pair<char* const, unsigned long long> >::operator()(std::pair<char* const, unsigned long long> const&) const [23]
+-----------------------------------------------
+                0.00    0.00     120/120         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_key(std::_Rb_tree_node<std::pair<char* const, unsigned long long> > const*) [25]
+[24]     0.0    0.00    0.00     120         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >::_M_valptr() const [24]
+                0.00    0.00     120/120         __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_ptr() const [21]
+-----------------------------------------------
+                0.00    0.00      25/120         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [75]
+                0.00    0.00      47/120         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_lower_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&) [32]
+                0.00    0.00      48/120         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&) [88]
+[25]     0.0    0.00    0.00     120         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_key(std::_Rb_tree_node<std::pair<char* const, unsigned long long> > const*) [25]
+                0.00    0.00     120/120         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >::_M_valptr() const [24]
+                0.00    0.00     120/120         std::_Select1st<std::pair<char* const, unsigned long long> >::operator()(std::pair<char* const, unsigned long long> const&) const [23]
+-----------------------------------------------
+                0.00    0.00     119/119         std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&) [38]
+[26]     0.0    0.00    0.00     119         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::operator*() const [26]
+                0.00    0.00     119/169         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >::_M_valptr() [12]
+-----------------------------------------------
+                0.00    0.00      25/100         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_destroy_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [73]
+                0.00    0.00      25/100         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_put_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [69]
+                0.00    0.00      25/100         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_node() [68]
+                0.00    0.00      25/100         void std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_construct_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [74]
+[27]     0.0    0.00    0.00     100         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_Node_allocator() [27]
+-----------------------------------------------
+                0.00    0.00      25/100         std::tuple<char*&&> std::forward_as_tuple<char*>(char*&&) [80]
+                0.00    0.00      25/100         std::tuple<char*&&>::tuple<char*, true, true>(char*&&) [67]
+                0.00    0.00      25/100         std::_Tuple_impl<0ul, char*&&>::_Tuple_impl<char*>(char*&&) [57]
+                0.00    0.00      25/100         std::_Head_base<0ul, char*&&, false>::_Head_base<char*>(char*&&) [54]
+[28]     0.0    0.00    0.00     100         char*&& std::forward<char*>(std::remove_reference<char*>::type&) [28]
+-----------------------------------------------
+                0.00    0.00      25/97          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_unique_pos(char* const&) [76]
+                0.00    0.00      72/97          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&) [38]
+[29]     0.0    0.00    0.00      97         std::operator==(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&) [29]
+-----------------------------------------------
+                0.00    0.00      96/96          main [6]
+[30]     0.0    0.00    0.00      96         ToLower(char*) [30]
+-----------------------------------------------
+                0.00    0.00      96/96          main [6]
+[31]     0.0    0.00    0.00      96         TRBtree::TNode::TNode() [31]
+-----------------------------------------------
+                0.00    0.00      24/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&) [88]
+                0.00    0.00      72/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::lower_bound(char* const&) [39]
+[32]     0.0    0.00    0.00      96         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_lower_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&) [32]
+                0.00    0.00      96/340         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_iterator(std::_Rb_tree_node_base*) [8]
+                0.00    0.00      47/120         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_key(std::_Rb_tree_node<std::pair<char* const, unsigned long long> > const*) [25]
+                0.00    0.00      47/142         std::less<char*>::operator()(char*, char*) const [16]
+                0.00    0.00      47/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_left(std::_Rb_tree_node_base*) [34]
+-----------------------------------------------
+                0.00    0.00      24/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >) [89]
+                0.00    0.00      72/96          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::end() [37]
+[33]     0.0    0.00    0.00      96         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::end() [33]
+                0.00    0.00      96/340         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_iterator(std::_Rb_tree_node_base*) [8]
+-----------------------------------------------
+                0.00    0.00      24/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&) [88]
+                0.00    0.00      25/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [78]
+                0.00    0.00      47/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_lower_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&) [32]
+[34]     0.0    0.00    0.00      96         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_left(std::_Rb_tree_node_base*) [34]
+-----------------------------------------------
+                0.00    0.00      25/73          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, char* const&) [77]
+                0.00    0.00      48/73          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::erase(char* const&) [92]
+[35]     0.0    0.00    0.00      73         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::size() const [35]
+-----------------------------------------------
+                0.00    0.00      72/72          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&) [38]
+[36]     0.0    0.00    0.00      72         std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::lower_bound(char* const&) [36]
+                0.00    0.00      72/72          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::lower_bound(char* const&) [39]
+-----------------------------------------------
+                0.00    0.00      72/72          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&) [38]
+[37]     0.0    0.00    0.00      72         std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::end() [37]
+                0.00    0.00      72/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::end() [33]
+-----------------------------------------------
+                0.00    0.00      72/72          main [6]
+[38]     0.0    0.00    0.00      72         std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&) [38]
+                0.00    0.00     119/119         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::operator*() const [26]
+                0.00    0.00      72/72          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::lower_bound(char* const&) [36]
+                0.00    0.00      72/72          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::end() [37]
+                0.00    0.00      72/97          std::operator==(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&) [29]
+                0.00    0.00      47/47          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::key_comp() const [45]
+                0.00    0.00      47/142         std::less<char*>::operator()(char*, char*) const [16]
+                0.00    0.00      25/25          std::remove_reference<char*&>::type&& std::move<char*&>(char*&) [82]
+                0.00    0.00      25/25          std::tuple<char*&&> std::forward_as_tuple<char*>(char*&&) [80]
+                0.00    0.00      25/121         std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_const_iterator(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&) [20]
+                0.00    0.00      25/25          std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [75]
+-----------------------------------------------
+                0.00    0.00      72/72          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::lower_bound(char* const&) [36]
+[39]     0.0    0.00    0.00      72         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::lower_bound(char* const&) [39]
+                0.00    0.00      72/171         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_end() [9]
+                0.00    0.00      72/146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_begin() [14]
+                0.00    0.00      72/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_lower_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&) [32]
+-----------------------------------------------
+                0.00    0.00      25/50          void std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_construct_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [74]
+                0.00    0.00      25/50          void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [50]
+[40]     0.0    0.00    0.00      50         operator new(unsigned long, void*) [40]
+-----------------------------------------------
+                0.00    0.00      24/49          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >) [89]
+                0.00    0.00      25/49          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_unique_pos(char* const&) [76]
+[41]     0.0    0.00    0.00      49         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::begin() [41]
+                0.00    0.00      49/340         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_iterator(std::_Rb_tree_node_base*) [8]
+-----------------------------------------------
+                0.00    0.00      24/49          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&) [88]
+                0.00    0.00      25/49          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [78]
+[42]     0.0    0.00    0.00      49         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_right(std::_Rb_tree_node_base*) [42]
+-----------------------------------------------
+                0.00    0.00      48/48          std::pair<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >::pair<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, true>(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&&, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&&) [87]
+[43]     0.0    0.00    0.00      48         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&& std::forward<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >(std::remove_reference<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >::type&) [43]
+-----------------------------------------------
+                0.00    0.00      48/48          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >) [89]
+[44]     0.0    0.00    0.00      48         std::operator==(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> > const&, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> > const&) [44]
+-----------------------------------------------
+                0.00    0.00      47/47          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&) [38]
+[45]     0.0    0.00    0.00      47         std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::key_comp() const [45]
+                0.00    0.00      47/47          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::key_comp() const [46]
+-----------------------------------------------
+                0.00    0.00      47/47          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::key_comp() const [45]
+[46]     0.0    0.00    0.00      47         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::key_comp() const [46]
+-----------------------------------------------
+                0.00    0.00      25/25          std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::deallocate(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, unsigned long) [59]
+[47]     0.0    0.00    0.00      25         __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::deallocate(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, unsigned long) [47]
+-----------------------------------------------
+                0.00    0.00      25/25          void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::destroy<std::pair<char* const, unsigned long long> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*) [60]
+[48]     0.0    0.00    0.00      25         void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::destroy<std::pair<char* const, unsigned long long> >(std::pair<char* const, unsigned long long>*) [48]
+-----------------------------------------------
+                0.00    0.00      25/25          std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, unsigned long) [61]
+[49]     0.0    0.00    0.00      25         __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::allocate(unsigned long, void const*) [49]
+                0.00    0.00      25/25          __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::_M_max_size() const [51]
+-----------------------------------------------
+                0.00    0.00      25/25          void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [62]
+[50]     0.0    0.00    0.00      25         void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [50]
+                0.00    0.00      25/125         std::piecewise_construct_t const& std::forward<std::piecewise_construct_t const&>(std::remove_reference<std::piecewise_construct_t const&>::type&) [17]
+                0.00    0.00      25/125         std::tuple<char*&&>&& std::forward<std::tuple<char*&&> >(std::remove_reference<std::tuple<char*&&> >::type&) [19]
+                0.00    0.00      25/25          std::tuple<char*&&>::tuple(std::tuple<char*&&>&&) [66]
+                0.00    0.00      25/125         std::tuple<>&& std::forward<std::tuple<> >(std::remove_reference<std::tuple<> >::type&) [18]
+                0.00    0.00      25/50          operator new(unsigned long, void*) [40]
+                0.00    0.00      25/25          std::pair<char* const, unsigned long long>::pair<char*&&>(std::piecewise_construct_t, std::tuple<char*&&>, std::tuple<>) [63]
+-----------------------------------------------
+                0.00    0.00      25/25          __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::allocate(unsigned long, void const*) [49]
+[51]     0.0    0.00    0.00      25         __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::_M_max_size() const [51]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, char* const&) [77]
+[52]     0.0    0.00    0.00      25         std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >::_M_const_cast() const [52]
+                0.00    0.00      25/340         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_iterator(std::_Rb_tree_node_base*) [8]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Tuple_impl<0ul, char*&&>::_M_head(std::_Tuple_impl<0ul, char*&&>&) [55]
+[53]     0.0    0.00    0.00      25         std::_Head_base<0ul, char*&&, false>::_M_head(std::_Head_base<0ul, char*&&, false>&) [53]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Tuple_impl<0ul, char*&&>::_Tuple_impl<char*>(char*&&) [57]
+[54]     0.0    0.00    0.00      25         std::_Head_base<0ul, char*&&, false>::_Head_base<char*>(char*&&) [54]
+                0.00    0.00      25/100         char*&& std::forward<char*>(std::remove_reference<char*>::type&) [28]
+-----------------------------------------------
+                0.00    0.00      25/25          char*& std::__get_helper<0ul, char*&&>(std::_Tuple_impl<0ul, char*&&>&) [79]
+[55]     0.0    0.00    0.00      25         std::_Tuple_impl<0ul, char*&&>::_M_head(std::_Tuple_impl<0ul, char*&&>&) [55]
+                0.00    0.00      25/25          std::_Head_base<0ul, char*&&, false>::_M_head(std::_Head_base<0ul, char*&&, false>&) [53]
+-----------------------------------------------
+                0.00    0.00      25/25          std::tuple<char*&&>::tuple(std::tuple<char*&&>&&) [66]
+[56]     0.0    0.00    0.00      25         std::_Tuple_impl<0ul, char*&&>::_Tuple_impl(std::_Tuple_impl<0ul, char*&&>&&) [56]
+-----------------------------------------------
+                0.00    0.00      25/25          std::tuple<char*&&>::tuple<char*, true, true>(char*&&) [67]
+[57]     0.0    0.00    0.00      25         std::_Tuple_impl<0ul, char*&&>::_Tuple_impl<char*>(char*&&) [57]
+                0.00    0.00      25/25          std::_Head_base<0ul, char*&&, false>::_Head_base<char*>(char*&&) [54]
+                0.00    0.00      25/100         char*&& std::forward<char*>(std::remove_reference<char*>::type&) [28]
+-----------------------------------------------
+                0.00    0.00       1/25          std::_Rb_tree_header::_Rb_tree_header() [98]
+                0.00    0.00      24/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::clear() [91]
+[58]     0.0    0.00    0.00      25         std::_Rb_tree_header::_M_reset() [58]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_put_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [69]
+[59]     0.0    0.00    0.00      25         std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::deallocate(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, unsigned long) [59]
+                0.00    0.00      25/25          __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::deallocate(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, unsigned long) [47]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_destroy_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [73]
+[60]     0.0    0.00    0.00      25         void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::destroy<std::pair<char* const, unsigned long long> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*) [60]
+                0.00    0.00      25/25          void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::destroy<std::pair<char* const, unsigned long long> >(std::pair<char* const, unsigned long long>*) [48]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_node() [68]
+[61]     0.0    0.00    0.00      25         std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, unsigned long) [61]
+                0.00    0.00      25/25          __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::allocate(unsigned long, void const*) [49]
+-----------------------------------------------
+                0.00    0.00      25/25          void std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_construct_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [74]
+[62]     0.0    0.00    0.00      25         void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [62]
+                0.00    0.00      25/125         std::tuple<>&& std::forward<std::tuple<> >(std::remove_reference<std::tuple<> >::type&) [18]
+                0.00    0.00      25/125         std::tuple<char*&&>&& std::forward<std::tuple<char*&&> >(std::remove_reference<std::tuple<char*&&> >::type&) [19]
+                0.00    0.00      25/125         std::piecewise_construct_t const& std::forward<std::piecewise_construct_t const&>(std::remove_reference<std::piecewise_construct_t const&>::type&) [17]
+                0.00    0.00      25/25          void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [50]
+-----------------------------------------------
+                0.00    0.00      25/25          void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [50]
+[63]     0.0    0.00    0.00      25         std::pair<char* const, unsigned long long>::pair<char*&&>(std::piecewise_construct_t, std::tuple<char*&&>, std::tuple<>) [63]
+                0.00    0.00      25/25          std::pair<char* const, unsigned long long>::pair<char*&&, 0ul>(std::tuple<char*&&>&, std::tuple<>&, std::_Index_tuple<0ul>, std::_Index_tuple<>) [64]
+-----------------------------------------------
+                0.00    0.00      25/25          std::pair<char* const, unsigned long long>::pair<char*&&>(std::piecewise_construct_t, std::tuple<char*&&>, std::tuple<>) [63]
+[64]     0.0    0.00    0.00      25         std::pair<char* const, unsigned long long>::pair<char*&&, 0ul>(std::tuple<char*&&>&, std::tuple<>&, std::_Index_tuple<0ul>, std::_Index_tuple<>) [64]
+                0.00    0.00      25/25          std::tuple_element<0ul, std::tuple<char*&&> >::type& std::get<0ul, char*&&>(std::tuple<char*&&>&) [81]
+                0.00    0.00      25/25          char*&& std::forward<char*&&>(std::remove_reference<char*&&>::type&) [83]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_unique_pos(char* const&) [76]
+[65]     0.0    0.00    0.00      25         std::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*>::pair<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&, std::_Rb_tree_node_base*&, true>(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&, std::_Rb_tree_node_base*&) [65]
+                0.00    0.00      25/25          std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*& std::forward<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&>(std::remove_reference<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&>::type&) [84]
+                0.00    0.00      25/25          std::_Rb_tree_node_base*& std::forward<std::_Rb_tree_node_base*&>(std::remove_reference<std::_Rb_tree_node_base*&>::type&) [85]
+-----------------------------------------------
+                0.00    0.00      25/25          void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [50]
+[66]     0.0    0.00    0.00      25         std::tuple<char*&&>::tuple(std::tuple<char*&&>&&) [66]
+                0.00    0.00      25/25          std::_Tuple_impl<0ul, char*&&>::_Tuple_impl(std::_Tuple_impl<0ul, char*&&>&&) [56]
+-----------------------------------------------
+                0.00    0.00      25/25          std::tuple<char*&&> std::forward_as_tuple<char*>(char*&&) [80]
+[67]     0.0    0.00    0.00      25         std::tuple<char*&&>::tuple<char*, true, true>(char*&&) [67]
+                0.00    0.00      25/100         char*&& std::forward<char*>(std::remove_reference<char*>::type&) [28]
+                0.00    0.00      25/25          std::_Tuple_impl<0ul, char*&&>::_Tuple_impl<char*>(char*&&) [57]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree_node<std::pair<char* const, unsigned long long> >* std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [71]
+[68]     0.0    0.00    0.00      25         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_node() [68]
+                0.00    0.00      25/100         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_Node_allocator() [27]
+                0.00    0.00      25/25          std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, unsigned long) [61]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_drop_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [70]
+[69]     0.0    0.00    0.00      25         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_put_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [69]
+                0.00    0.00      25/100         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_Node_allocator() [27]
+                0.00    0.00      25/25          std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::deallocate(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, unsigned long) [59]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [78]
+[70]     0.0    0.00    0.00      25         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_drop_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [70]
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_destroy_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [73]
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_put_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [69]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [75]
+[71]     0.0    0.00    0.00      25         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >* std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [71]
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_node() [68]
+                0.00    0.00      25/125         std::tuple<>&& std::forward<std::tuple<> >(std::remove_reference<std::tuple<> >::type&) [18]
+                0.00    0.00      25/125         std::tuple<char*&&>&& std::forward<std::tuple<char*&&> >(std::remove_reference<std::tuple<char*&&> >::type&) [19]
+                0.00    0.00      25/125         std::piecewise_construct_t const& std::forward<std::piecewise_construct_t const&>(std::remove_reference<std::piecewise_construct_t const&>::type&) [17]
+                0.00    0.00      25/25          void std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_construct_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [74]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [75]
+[72]     0.0    0.00    0.00      25         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [72]
+                0.00    0.00      25/171         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_end() [9]
+                0.00    0.00      25/340         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_iterator(std::_Rb_tree_node_base*) [8]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_drop_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [70]
+[73]     0.0    0.00    0.00      25         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_destroy_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [73]
+                0.00    0.00      25/169         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >::_M_valptr() [12]
+                0.00    0.00      25/100         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_Node_allocator() [27]
+                0.00    0.00      25/25          void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::destroy<std::pair<char* const, unsigned long long> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*) [60]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree_node<std::pair<char* const, unsigned long long> >* std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [71]
+[74]     0.0    0.00    0.00      25         void std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_construct_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [74]
+                0.00    0.00      25/50          operator new(unsigned long, void*) [40]
+                0.00    0.00      25/125         std::tuple<char*&&>&& std::forward<std::tuple<char*&&> >(std::remove_reference<std::tuple<char*&&> >::type&) [19]
+                0.00    0.00      25/125         std::tuple<>&& std::forward<std::tuple<> >(std::remove_reference<std::tuple<> >::type&) [18]
+                0.00    0.00      25/125         std::piecewise_construct_t const& std::forward<std::piecewise_construct_t const&>(std::remove_reference<std::piecewise_construct_t const&>::type&) [17]
+                0.00    0.00      25/169         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >::_M_valptr() [12]
+                0.00    0.00      25/100         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_Node_allocator() [27]
+                0.00    0.00      25/25          void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [62]
+-----------------------------------------------
+                0.00    0.00      25/25          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&) [38]
+[75]     0.0    0.00    0.00      25         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [75]
+                0.00    0.00      25/125         std::tuple<>&& std::forward<std::tuple<> >(std::remove_reference<std::tuple<> >::type&) [18]
+                0.00    0.00      25/125         std::tuple<char*&&>&& std::forward<std::tuple<char*&&> >(std::remove_reference<std::tuple<char*&&> >::type&) [19]
+                0.00    0.00      25/125         std::piecewise_construct_t const& std::forward<std::piecewise_construct_t const&>(std::remove_reference<std::piecewise_construct_t const&>::type&) [17]
+                0.00    0.00      25/25          std::_Rb_tree_node<std::pair<char* const, unsigned long long> >* std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [71]
+                0.00    0.00      25/120         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_key(std::_Rb_tree_node<std::pair<char* const, unsigned long long> > const*) [25]
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, char* const&) [77]
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [72]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, char* const&) [77]
+[76]     0.0    0.00    0.00      25         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_unique_pos(char* const&) [76]
+                0.00    0.00      25/146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_begin() [14]
+                0.00    0.00      25/171         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_end() [9]
+                0.00    0.00      25/340         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_iterator(std::_Rb_tree_node_base*) [8]
+                0.00    0.00      25/49          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::begin() [41]
+                0.00    0.00      25/97          std::operator==(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&) [29]
+                0.00    0.00      25/25          std::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*>::pair<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&, std::_Rb_tree_node_base*&, true>(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&, std::_Rb_tree_node_base*&) [65]
+-----------------------------------------------
+                0.00    0.00      25/25          std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [75]
+[77]     0.0    0.00    0.00      25         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, char* const&) [77]
+                0.00    0.00      25/25          std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >::_M_const_cast() const [52]
+                0.00    0.00      25/171         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_end() [9]
+                0.00    0.00      25/73          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::size() const [35]
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_unique_pos(char* const&) [76]
+-----------------------------------------------
+                                  25             std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [78]
+                0.00    0.00       1/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::~_Rb_tree() [105]
+                0.00    0.00      24/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::clear() [91]
+[78]     0.0    0.00    0.00      25+25      std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [78]
+                0.00    0.00      25/49          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_right(std::_Rb_tree_node_base*) [42]
+                0.00    0.00      25/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_left(std::_Rb_tree_node_base*) [34]
+                0.00    0.00      25/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_drop_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [70]
+                                  25             std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [78]
+-----------------------------------------------
+                0.00    0.00      25/25          std::tuple_element<0ul, std::tuple<char*&&> >::type& std::get<0ul, char*&&>(std::tuple<char*&&>&) [81]
+[79]     0.0    0.00    0.00      25         char*& std::__get_helper<0ul, char*&&>(std::_Tuple_impl<0ul, char*&&>&) [79]
+                0.00    0.00      25/25          std::_Tuple_impl<0ul, char*&&>::_M_head(std::_Tuple_impl<0ul, char*&&>&) [55]
+-----------------------------------------------
+                0.00    0.00      25/25          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&) [38]
+[80]     0.0    0.00    0.00      25         std::tuple<char*&&> std::forward_as_tuple<char*>(char*&&) [80]
+                0.00    0.00      25/100         char*&& std::forward<char*>(std::remove_reference<char*>::type&) [28]
+                0.00    0.00      25/25          std::tuple<char*&&>::tuple<char*, true, true>(char*&&) [67]
+-----------------------------------------------
+                0.00    0.00      25/25          std::pair<char* const, unsigned long long>::pair<char*&&, 0ul>(std::tuple<char*&&>&, std::tuple<>&, std::_Index_tuple<0ul>, std::_Index_tuple<>) [64]
+[81]     0.0    0.00    0.00      25         std::tuple_element<0ul, std::tuple<char*&&> >::type& std::get<0ul, char*&&>(std::tuple<char*&&>&) [81]
+                0.00    0.00      25/25          char*& std::__get_helper<0ul, char*&&>(std::_Tuple_impl<0ul, char*&&>&) [79]
+-----------------------------------------------
+                0.00    0.00      25/25          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&) [38]
+[82]     0.0    0.00    0.00      25         std::remove_reference<char*&>::type&& std::move<char*&>(char*&) [82]
+-----------------------------------------------
+                0.00    0.00      25/25          std::pair<char* const, unsigned long long>::pair<char*&&, 0ul>(std::tuple<char*&&>&, std::tuple<>&, std::_Index_tuple<0ul>, std::_Index_tuple<>) [64]
+[83]     0.0    0.00    0.00      25         char*&& std::forward<char*&&>(std::remove_reference<char*&&>::type&) [83]
+-----------------------------------------------
+                0.00    0.00      25/25          std::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*>::pair<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&, std::_Rb_tree_node_base*&, true>(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&, std::_Rb_tree_node_base*&) [65]
+[84]     0.0    0.00    0.00      25         std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*& std::forward<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&>(std::remove_reference<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&>::type&) [84]
+-----------------------------------------------
+                0.00    0.00      25/25          std::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*>::pair<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&, std::_Rb_tree_node_base*&, true>(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&, std::_Rb_tree_node_base*&) [65]
+[85]     0.0    0.00    0.00      25         std::_Rb_tree_node_base*& std::forward<std::_Rb_tree_node_base*&>(std::remove_reference<std::_Rb_tree_node_base*&>::type&) [85]
+-----------------------------------------------
+                0.00    0.00      24/24          main [6]
+[86]     0.0    0.00    0.00      24         std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::erase(char* const&) [86]
+                0.00    0.00      24/24          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::erase(char* const&) [92]
+-----------------------------------------------
+                0.00    0.00      24/24          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&) [88]
+[87]     0.0    0.00    0.00      24         std::pair<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >::pair<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, true>(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&&, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&&) [87]
+                0.00    0.00      48/48          std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&& std::forward<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >(std::remove_reference<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >::type&) [43]
+-----------------------------------------------
+                0.00    0.00      24/24          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::erase(char* const&) [92]
+[88]     0.0    0.00    0.00      24         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&) [88]
+                0.00    0.00      48/120         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_key(std::_Rb_tree_node<std::pair<char* const, unsigned long long> > const*) [25]
+                0.00    0.00      48/142         std::less<char*>::operator()(char*, char*) const [16]
+                0.00    0.00      24/146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_begin() [14]
+                0.00    0.00      24/171         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_end() [9]
+                0.00    0.00      24/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_left(std::_Rb_tree_node_base*) [34]
+                0.00    0.00      24/49          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_right(std::_Rb_tree_node_base*) [42]
+                0.00    0.00      24/24          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_upper_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&) [90]
+                0.00    0.00      24/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_lower_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&) [32]
+                0.00    0.00      24/24          std::pair<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >::pair<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, true>(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&&, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&&) [87]
+-----------------------------------------------
+                0.00    0.00      24/24          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::erase(char* const&) [92]
+[89]     0.0    0.00    0.00      24         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >) [89]
+                0.00    0.00      48/121         std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_const_iterator(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&) [20]
+                0.00    0.00      48/48          std::operator==(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> > const&, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> > const&) [44]
+                0.00    0.00      24/49          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::begin() [41]
+                0.00    0.00      24/96          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::end() [33]
+                0.00    0.00      24/24          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::clear() [91]
+-----------------------------------------------
+                0.00    0.00      24/24          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&) [88]
+[90]     0.0    0.00    0.00      24         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_upper_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&) [90]
+                0.00    0.00      24/340         std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_iterator(std::_Rb_tree_node_base*) [8]
+-----------------------------------------------
+                0.00    0.00      24/24          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >) [89]
+[91]     0.0    0.00    0.00      24         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::clear() [91]
+                0.00    0.00      24/146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_begin() [14]
+                0.00    0.00      24/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [78]
+                0.00    0.00      24/25          std::_Rb_tree_header::_M_reset() [58]
+-----------------------------------------------
+                0.00    0.00      24/24          std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::erase(char* const&) [86]
+[92]     0.0    0.00    0.00      24         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::erase(char* const&) [92]
+                0.00    0.00      48/73          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::size() const [35]
+                0.00    0.00      48/121         std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_const_iterator(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&) [20]
+                0.00    0.00      24/24          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&) [88]
+                0.00    0.00      24/24          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >) [89]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__Z7ToLowerPc [106]
+[93]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [93]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::allocator() [96]
+[94]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::new_allocator() [94]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::~allocator() [97]
+[95]     0.0    0.00    0.00       1         __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::~new_allocator() [95]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree_impl<std::less<char*>, true>::_Rb_tree_impl() [102]
+[96]     0.0    0.00    0.00       1         std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::allocator() [96]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::new_allocator() [94]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree_impl<std::less<char*>, true>::~_Rb_tree_impl() [103]
+[97]     0.0    0.00    0.00       1         std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::~allocator() [97]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::~new_allocator() [95]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree_impl<std::less<char*>, true>::_Rb_tree_impl() [102]
+[98]     0.0    0.00    0.00       1         std::_Rb_tree_header::_Rb_tree_header() [98]
+                0.00    0.00       1/25          std::_Rb_tree_header::_M_reset() [58]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree_impl<std::less<char*>, true>::_Rb_tree_impl() [102]
+[99]     0.0    0.00    0.00       1         std::_Rb_tree_key_compare<std::less<char*> >::_Rb_tree_key_compare() [99]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[100]    0.0    0.00    0.00       1         std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::map() [100]
+                0.00    0.00       1/1           std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree() [104]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[101]    0.0    0.00    0.00       1         std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::~map() [101]
+                0.00    0.00       1/1           std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::~_Rb_tree() [105]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree() [104]
+[102]    0.0    0.00    0.00       1         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree_impl<std::less<char*>, true>::_Rb_tree_impl() [102]
+                0.00    0.00       1/1           std::_Rb_tree_key_compare<std::less<char*> >::_Rb_tree_key_compare() [99]
+                0.00    0.00       1/1           std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::allocator() [96]
+                0.00    0.00       1/1           std::_Rb_tree_header::_Rb_tree_header() [98]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::~_Rb_tree() [105]
+[103]    0.0    0.00    0.00       1         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree_impl<std::less<char*>, true>::~_Rb_tree_impl() [103]
+                0.00    0.00       1/1           std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::~allocator() [97]
+-----------------------------------------------
+                0.00    0.00       1/1           std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::map() [100]
+[104]    0.0    0.00    0.00       1         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree() [104]
+                0.00    0.00       1/1           std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree_impl<std::less<char*>, true>::_Rb_tree_impl() [102]
+-----------------------------------------------
+                0.00    0.00       1/1           std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::~map() [101]
+[105]    0.0    0.00    0.00       1         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::~_Rb_tree() [105]
+                0.00    0.00       1/146         std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_begin() [14]
+                0.00    0.00       1/25          std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [78]
+                0.00    0.00       1/1           std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree_impl<std::less<char*>, true>::~_Rb_tree_impl() [103]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [93] __static_initialization_and_destruction_0(int, int) [59] std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::deallocate(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, unsigned long) [27] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_Node_allocator()
+  [30] ToLower(char*)         [60] void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::destroy<std::pair<char* const, unsigned long long> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*) [75] std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&)
+  [31] TRBtree::TNode::TNode() [61] std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, unsigned long) [76] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_unique_pos(char* const&)
+  [47] __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::deallocate(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, unsigned long) [62] void std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >&, std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [77] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, char* const&)
+  [48] void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::destroy<std::pair<char* const, unsigned long long> >(std::pair<char* const, unsigned long long>*) [8] std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_iterator(std::_Rb_tree_node_base*) [33] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::end()
+  [49] __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::allocate(unsigned long, void const*) [99] std::_Rb_tree_key_compare<std::less<char*> >::_Rb_tree_key_compare() [41] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::begin()
+  [50] void __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::construct<std::pair<char* const, unsigned long long>, std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::pair<char* const, unsigned long long>*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [20] std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >::_Rb_tree_const_iterator(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&) [91] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::clear()
+  [94] __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::new_allocator() [36] std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::lower_bound(char* const&) [92] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::erase(char* const&)
+  [95] __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::~new_allocator() [37] std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::end() [9] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_end()
+  [10] __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_ptr() [86] std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::erase(char* const&) [25] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_key(std::_Rb_tree_node<std::pair<char* const, unsigned long long> > const*)
+  [11] __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_addr() [100] std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::map() [34] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_left(std::_Rb_tree_node_base*)
+  [51] __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::_M_max_size() const [101] std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::~map() [14] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_begin()
+  [21] __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_ptr() const [38] std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::operator[](char*&&) [78] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*)
+  [22] __gnu_cxx::__aligned_membuf<std::pair<char* const, unsigned long long> >::_M_addr() const [63] std::pair<char* const, unsigned long long>::pair<char*&&>(std::piecewise_construct_t, std::tuple<char*&&>, std::tuple<>) [42] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_S_right(std::_Rb_tree_node_base*)
+  [23] std::_Select1st<std::pair<char* const, unsigned long long> >::operator()(std::pair<char* const, unsigned long long> const&) const [64] std::pair<char* const, unsigned long long>::pair<char*&&, 0ul>(std::tuple<char*&&>&, std::tuple<>&, std::_Index_tuple<0ul>, std::_Index_tuple<>) [104] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree()
+  [24] std::_Rb_tree_node<std::pair<char* const, unsigned long long> >::_M_valptr() const [65] std::pair<std::_Rb_tree_node_base*, std::_Rb_tree_node_base*>::pair<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&, std::_Rb_tree_node_base*&, true>(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&, std::_Rb_tree_node_base*&) [105] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::~_Rb_tree()
+  [26] std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >::operator*() const [87] std::pair<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >::pair<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >, true>(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&&, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&&) [79] char*& std::__get_helper<0ul, char*&&>(std::_Tuple_impl<0ul, char*&&>&)
+  [52] std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >::_M_const_cast() const [66] std::tuple<char*&&>::tuple(std::tuple<char*&&>&&) [80] std::tuple<char*&&> std::forward_as_tuple<char*>(char*&&)
+  [45] std::map<char*, unsigned long long, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::key_comp() const [67] std::tuple<char*&&>::tuple<char*, true, true>(char*&&) [81] std::tuple_element<0ul, std::tuple<char*&&> >::type& std::get<0ul, char*&&>(std::tuple<char*&&>&)
+  [16] std::less<char*>::operator()(char*, char*) const [68] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_get_node() [82] std::remove_reference<char*&>::type&& std::move<char*&>(char*&)
+  [35] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::size() const [69] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_put_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [83] char*&& std::forward<char*&&>(std::remove_reference<char*&&>::type&)
+  [46] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::key_comp() const [88] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::equal_range(char* const&) [28] char*&& std::forward<char*>(std::remove_reference<char*>::type&)
+  [13] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_mbegin() const [39] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::lower_bound(char* const&) [17] std::piecewise_construct_t const& std::forward<std::piecewise_construct_t const&>(std::remove_reference<std::piecewise_construct_t const&>::type&)
+  [96] std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::allocator() [70] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_drop_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [84] std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*& std::forward<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&>(std::remove_reference<std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*&>::type&)
+  [97] std::allocator<std::_Rb_tree_node<std::pair<char* const, unsigned long long> > >::~allocator() [89] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> >) [85] std::_Rb_tree_node_base*& std::forward<std::_Rb_tree_node_base*&>(std::remove_reference<std::_Rb_tree_node_base*&>::type&)
+  [53] std::_Head_base<0ul, char*&&, false>::_M_head(std::_Head_base<0ul, char*&&, false>&) [102] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree_impl<std::less<char*>, true>::_Rb_tree_impl() [43] std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> >&& std::forward<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >(std::remove_reference<std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > >::type&)
+  [54] std::_Head_base<0ul, char*&&, false>::_Head_base<char*>(char*&&) [103] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_Rb_tree_impl<std::less<char*>, true>::~_Rb_tree_impl() [18] std::tuple<>&& std::forward<std::tuple<> >(std::remove_reference<std::tuple<> >::type&)
+  [55] std::_Tuple_impl<0ul, char*&&>::_M_head(std::_Tuple_impl<0ul, char*&&>&) [71] std::_Rb_tree_node<std::pair<char* const, unsigned long long> >* std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_create_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&) [19] std::tuple<char*&&>&& std::forward<std::tuple<char*&&> >(std::remove_reference<std::tuple<char*&&> >::type&)
+  [56] std::_Tuple_impl<0ul, char*&&>::_Tuple_impl(std::_Tuple_impl<0ul, char*&&>&&) [72] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [29] std::operator==(std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&, std::_Rb_tree_iterator<std::pair<char* const, unsigned long long> > const&)
+  [57] std::_Tuple_impl<0ul, char*&&>::_Tuple_impl<char*>(char*&&) [32] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_lower_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&) [44] std::operator==(std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> > const&, std::_Rb_tree_const_iterator<std::pair<char* const, unsigned long long> > const&)
+  [12] std::_Rb_tree_node<std::pair<char* const, unsigned long long> >::_M_valptr() [90] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_upper_bound(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::_Rb_tree_node_base*, char* const&) [15] std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&, char*)
+  [58] std::_Rb_tree_header::_M_reset() [73] std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_destroy_node(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*) [40] operator new(unsigned long, void*)
+  [98] std::_Rb_tree_header::_Rb_tree_header() [74] void std::_Rb_tree<char*, std::pair<char* const, unsigned long long>, std::_Select1st<std::pair<char* const, unsigned long long> >, std::less<char*>, std::allocator<std::pair<char* const, unsigned long long> > >::_M_construct_node<std::piecewise_construct_t const&, std::tuple<char*&&>, std::tuple<> >(std::_Rb_tree_node<std::pair<char* const, unsigned long long> >*, std::piecewise_construct_t const&, std::tuple<char*&&>&&, std::tuple<>&&)
